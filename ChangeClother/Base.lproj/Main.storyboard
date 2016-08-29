@@ -1,25 +1,89 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="ChangeClother" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="naruto_background.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="JU9-jx-bCR">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="11.png" translatesAutoresizingMaskIntoConstraints="NO" id="RDh-Pi-yxh" customClass="CustomGesture" customModule="ChangeClother" customModuleProvider="target">
+                                <rect key="frame" x="281" y="10" width="80" height="80"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="9.png" translatesAutoresizingMaskIntoConstraints="NO" id="PCL-YI-EbO" customClass="CustomGesture" customModule="ChangeClother" customModuleProvider="target">
+                                <rect key="frame" x="193" y="8" width="80" height="80"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="1.png" translatesAutoresizingMaskIntoConstraints="NO" id="3DW-WK-Tio">
+                                <rect key="frame" x="119" y="370" width="125" height="277"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="7.png" translatesAutoresizingMaskIntoConstraints="NO" id="ZLJ-Mz-sE6" customClass="CustomGesture" customModule="ChangeClother" customModuleProvider="target">
+                                <rect key="frame" x="98" y="10" width="80" height="80"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="3.png" translatesAutoresizingMaskIntoConstraints="NO" id="PlJ-TK-AOi" customClass="CustomGesture" customModule="ChangeClother" customModuleProvider="target">
+                                <rect key="frame" x="10" y="10" width="80" height="80"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="21.png" translatesAutoresizingMaskIntoConstraints="NO" id="aHG-h6-JGJ" customClass="CustomGesture" customModule="ChangeClother" customModuleProvider="target">
+                                <rect key="frame" x="10" y="203" width="80" height="80"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="23.png" translatesAutoresizingMaskIntoConstraints="NO" id="bAZ-gc-t0E" customClass="CustomGesture" customModule="ChangeClother" customModuleProvider="target">
+                                <rect key="frame" x="98" y="203" width="80" height="80"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="25.png" translatesAutoresizingMaskIntoConstraints="NO" id="NvM-ii-vC0" customClass="CustomGesture" customModule="ChangeClother" customModuleProvider="target">
+                                <rect key="frame" x="193" y="203" width="80" height="80"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="27.png" translatesAutoresizingMaskIntoConstraints="NO" id="dmn-qI-njJ" customClass="CustomGesture" customModule="ChangeClother" customModuleProvider="target">
+                                <rect key="frame" x="281" y="203" width="80" height="80"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="19.png" translatesAutoresizingMaskIntoConstraints="NO" id="WmZ-gA-2oI" customClass="CustomGesture" customModule="ChangeClother" customModuleProvider="target">
+                                <rect key="frame" x="281" y="113" width="80" height="80"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="17.png" translatesAutoresizingMaskIntoConstraints="NO" id="xaL-7c-At8" customClass="CustomGesture" customModule="ChangeClother" customModuleProvider="target">
+                                <rect key="frame" x="193" y="107" width="80" height="80"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="15.png" translatesAutoresizingMaskIntoConstraints="NO" id="GTA-M9-7Qv" customClass="CustomGesture" customModule="ChangeClother" customModuleProvider="target">
+                                <rect key="frame" x="98" y="107" width="80" height="80"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="13.png" translatesAutoresizingMaskIntoConstraints="NO" id="CNO-jH-17x" customClass="CustomGesture" customModule="ChangeClother" customModuleProvider="target">
+                                <rect key="frame" x="10" y="107" width="80" height="80"/>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
+                    <nil key="simulatedStatusBarMetrics"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="244.5" y="310.5"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="1.png" width="124" height="343"/>
+        <image name="11.png" width="41" height="37"/>
+        <image name="13.png" width="121" height="139"/>
+        <image name="15.png" width="36" height="49"/>
+        <image name="17.png" width="72" height="72"/>
+        <image name="19.png" width="32" height="27"/>
+        <image name="21.png" width="34" height="29"/>
+        <image name="23.png" width="92" height="60"/>
+        <image name="25.png" width="75" height="124"/>
+        <image name="27.png" width="112" height="49"/>
+        <image name="3.png" width="86" height="160"/>
+        <image name="7.png" width="115" height="120"/>
+        <image name="9.png" width="112" height="49"/>
+        <image name="naruto_background.jpg" width="1920" height="1080"/>
+    </resources>
 </document>
